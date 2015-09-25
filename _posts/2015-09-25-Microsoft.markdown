@@ -8,7 +8,7 @@ tags:
 - microsoft 
 - Satya
 
-link: http://windowsinsiders.com
+link: http://xbox.com
 ---
 
 Learn about being a windows insider

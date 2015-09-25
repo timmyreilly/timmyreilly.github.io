@@ -25,7 +25,7 @@ Click on a tag to see relevant list of posts.
 {% for post in posts %}
   {% if post.tags contains t %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.link }}" target="_blank" >{{ post.title }}</a>
     <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
   </li>
   {% endif %}
