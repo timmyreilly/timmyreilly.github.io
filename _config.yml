@@ -11,8 +11,8 @@ github_username:  timmyreilly
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title/  # URL structure for posts
-paginate: 5  # Optional: number of posts per page
-paginate_path: "/page:num/"
+# paginate: 5  # Optional: number of posts per page
+# paginate_path: "/page:num/"
 
 # Exclude files and directories from processing
 exclude:
@@ -25,3 +25,5 @@ exclude:
 # Plugins (optional)
 plugins:
   - jekyll-paginate
+
+future: true
