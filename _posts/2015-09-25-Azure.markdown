@@ -11,5 +11,20 @@ tags:
 link: http://timmyreilly.com
 ---
 
-Learn more about using Flask! 
+Use azure playbooks like this: 
 
+az login
+
+python --version
+pip install ansible
+
+
+
+git clone:
+
+or http post to devops pipeline:
+
+or click this button:
+here's the subscription link: 
+here's my frontend example hosted on a load balanced, frontdoor'd domain. 
+http://timmyreilly.com/frontend 

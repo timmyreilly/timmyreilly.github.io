@@ -3,7 +3,7 @@ layout: post
 title: "My First Post"
 date: 2024-09-23 12:00:00
 categories: blog
-tags: [introduction, jekyll]
+tags: [introduction, projects]
 ---
 
 # Welcome to my first post!
