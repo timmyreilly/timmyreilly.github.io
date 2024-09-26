@@ -7,8 +7,6 @@ tags:
 - azure
 - microsoft 
 - Satya
-
-link: http://xbox.com
 ---
 
 Learn about being a windows insider

@@ -7,7 +7,6 @@ tags:
 - azure
 - flask
 - python
-link: http://bing.com 
 ---
 
 This is where you'll fill out the description of your blog post and share other resources.

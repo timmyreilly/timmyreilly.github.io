@@ -1,12 +1,27 @@
 # Site settings
-title: Microsoft TEs United
-email: your-email@domain.com
+title: Timmy Reilly Root Site
+email: timreilly@live.com
 description: > # this means to ignore newlines until "baseurl:"
-  Microsoft Technical Evangelists Blogs United so you can learn from the folks at your hackathon!
+  Learnings and stuff to build!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://timmyreilly.github.io" # the base hostname & protocol for your site
 twitter_username: timmyreilly
 github_username:  timmyreilly
 
 # Build settings
 markdown: kramdown
+permalink: /:year/:month/:day/:title/  # URL structure for posts
+paginate: 5  # Optional: number of posts per page
+paginate_path: "/page:num/"
+
+# Exclude files and directories from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+
+# Plugins (optional)
+plugins:
+  - jekyll-paginate
