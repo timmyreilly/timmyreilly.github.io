@@ -13,5 +13,14 @@ Sleep. Everynight we sleep. Every morning we wake up... And every night I have t
 
 [![A Fine World Indeed ](images/IMG_20131228_1226371-768x1024.jpg)](http://timmyreilly.azurewebsites.net/wp-content/uploads/2014/02/IMG_20131228_1226371.jpg)
 
+
+[![A Fine World Indeed ](images/IMG_20131228_1226371-768x1024.jpg)]
+    
+![A Fine World Indeed ]({{ site.baseurl }}/assets/images/IMG_20131228_1226371-768x1024.jpg)
+
+
+](http://timmyreilly.azurewebsites.net/wp-content/uploads/2014/02/IMG_20131228_1226371.jpg)
+
+
  [](about:blank)
 
