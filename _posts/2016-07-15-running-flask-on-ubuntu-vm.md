@@ -122,10 +122,11 @@ And what it looks like in nano: ![nanoapppy]({{ site.baseurl }}/assets/images/na
 
 Then we need to add our first template: `$ sudo nano templates/index.html`
 
-
+{% raw %}
 ```html
-<h1>Wazzup Dog</h1> <img style="max-width:100%;" src="{{ url\_for('static', filename='photo.jpg') }}">
+<h1>Wazzup Dog</h1> <img style="max-width:100%;" src="{{ url_for('static', filename='photo.jpg') }}">
 ```
+{% endraw %}
 
 
 And what it looks like in nano: ![indexinnano]({{ site.baseurl }}/assets/images/indexinnano.png)
