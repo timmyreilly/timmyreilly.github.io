@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AT&T MMS Issues FIXED"
+title: "Hardware Notes"
 date: "2024-09-26"
 tags: 
   - "1320"

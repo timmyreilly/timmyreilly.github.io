@@ -60,6 +60,7 @@ APN: pta User Name: \_\_\_ Password: \_\_\_ Authentication type: PAP WAP gateway
 
 13\. Go back and tap on any messages that say "Get media content now (1kb)" to download those missing messages.
 
-\[caption id="attachment\_2291" align="aligncenter" width="474"\]![Ciaran y Andrew son atractivas ](images/IMAG0023-685x1024.jpg) Ciaran y Andrew son atractivas \[/caption\]
+![Ciaran y Andrew son atractivas]({{ site.baseurl }}/assets/images/IMAG0023.jpg)
 
 I'll be switching phones again soon, so if I need to make any other adjustments I'll post again.
+
