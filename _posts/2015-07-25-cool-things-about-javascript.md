@@ -25,11 +25,13 @@ From _Eloquent JavaScript:_  "...each local scope can also see all the local sc
 
 My example: Each local scope, can see the variables of the containing scope. Each new set of braces does NOT create a brand new environment. It's like the octopus holds another octopus.
 
-\[sourcecode language="javascript"\]
 
+```javascript
 var octopus1 = function(){ var smallArms = 5; var octopus2 = function(){ var largeArms = 8; console.log(largeArms > smallArms); } }
 
-octopus1(); --> True \[/sourcecode\]
+octopus1(); --> True
+```
+
 
 It's like each new function is a new Octopus, and one of the octopus tentacles is on the octopus that called it.
 
@@ -59,7 +61,11 @@ As my little cousin would say, "You're it times infinity!"
 
 **For loops like C++**
 
-\[sourcecode language="JavaScript"\] for(var i == 0; i < 10; i++){ console.log("ahh yeah"); } \[/sourcecode\]
+
+```JavaScript
+for(var i == 0; i < 10; i++){ console.log("ahh yeah"); }
+```
+
 
 C++ was my first language so these for loops remind me of my first CS class, even though that's where I got my first C on an exam, it was the first time I felt the power of computing.
 
@@ -67,13 +73,13 @@ C++ was my first language so these for loops remind me of my first CS class, eve
 
 'That\\'s nice' "How convenient!"
 
-**Ternary Operator** \[sourcecode language="JavaScript"\]
-
+**Ternary Operator** 
+```JavaScript
 console.log(true ? 1 : 2) // --> 1
 
 console.log(false ? 1 : 2) // --> 2
+```
 
-\[/sourcecode\]
 
 This is cool. I've never used a ternary operator. I could see this saving lots of lines for if statements.
 
@@ -91,9 +97,13 @@ Finally:
 
 **Optional Arguments are handled nicely.**
 
-\[sourcecode language="JavaScript"\] function power(base, exponent){ if (exponent == undefined) exponent = 2; var result = 1; for(var count = 0; count < exponent; count++) result \*= base; return result; }
 
-console.log(power(4)); // --> 16 console.log(power(4, 3)); // --> 64 \[/sourcecode\]
+```JavaScript
+function power(base, exponent){ if (exponent == undefined) exponent = 2; var result = 1; for(var count = 0; count < exponent; count++) result \*= base; return result; }
+
+console.log(power(4)); // --> 16 console.log(power(4, 3)); // --> 64
+```
+
 
 Ahh that's sooo sweet.
 

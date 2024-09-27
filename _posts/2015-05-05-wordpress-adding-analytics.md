@@ -5,7 +5,11 @@ date: "2015-05-05"
 
 Site tracking is cool because information is cool! This tutorial will show you how to configure analytics for a Wordpress blog by editing the Header.php file using FTP.
 
-\[sourcecode language="html"\]\[/sourcecode\]
+
+```html
+
+```
+
 
 **Let's imagine your company gave you something like this to begin analytics:** `<meta name="t_omni_extblogid" content="contosotextblogs" /> <meta name="t_omni_blogname" content="alias" /> <meta name="t_omni_market" content="US" /> <meta name="t_omni_audience" content="DEVELOPER" /> <script type="text/javascript" src="http://www.contoso.com/feeds/omni_external_blogs.js"></script> <noscript><a href='http://www.omnicron.com' title='Web Analytics'><img src='http://something.fancy.com'  height='1' width='1' border='0' alt='' /></a></noscript>`
 

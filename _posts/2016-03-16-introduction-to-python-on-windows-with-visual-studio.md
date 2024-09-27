@@ -39,7 +39,11 @@ Use your favorite text editor. I'm using [Visual Studio Code](https://code.visua
 
 I've named my example: [beginnings.py](https://github.com/timmyreilly/onehourpython/blob/windows/README.md)
 
-\[sourcecode language="python"\] sentence = "Four score and seven years ago" sentence\_no\_vowels = "" for letter in sentence: if letter not in "AEIOUaeiou": sentence\_no\_vowels = sentence\_no\_vowels + letter print sentence\_no\_vowels \[/sourcecode\]
+
+```python
+sentence = "Four score and seven years ago" sentence\_no\_vowels = "" for letter in sentence: if letter not in "AEIOUaeiou": sentence\_no\_vowels = sentence\_no\_vowels + letter print sentence\_no\_vowels
+```
+
 
 **4\. Examining the Python Folders**
 

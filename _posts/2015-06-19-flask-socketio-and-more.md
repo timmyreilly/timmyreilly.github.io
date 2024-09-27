@@ -59,11 +59,15 @@ Flask-SocketIO is a python package that is available for download using
 
 Make sure you instal it into a Virtual Environment. [Check out my earlier tutorial](http://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/) if you need help with this step.
 
-\*Edit Here's the top part of the "main.py" for reference: \[sourcecode language="python"\] #main.py from gevent import monkey monkey.patch\_all()
+\*Edit Here's the top part of the "main.py" for reference: 
+```python
+#main.py from gevent import monkey monkey.patch\_all()
 
 import time from threading import Thread from flask import Flask, render\_template, session, request from flask.ext.socketio import SocketIO, emit, join\_room, disconnect
 
-app = Flask(\_\_name\_\_) app.debug = True app.config\['SECRET\_KEY'\] = 'secret!' socketio = SocketIO(app) thread = None \[/sourcecode\]
+app = Flask(\_\_name\_\_) app.debug = True app.config['SECRET\_KEY'] = 'secret!' socketio = SocketIO(app) thread = None
+```
+
 
 **2.**
 
@@ -73,13 +77,21 @@ For this example we'll be changing the current time every second and display tha
 
 Background Thread:
 
-\[sourcecode language="python"\] def background\_stuff(): """ python code in main.py """ print 'In background\_stuff' while True: time.sleep(1) t = str(time.clock()) socketio.emit('message', {'data': 'This is data', 'time': t}, namespace='/test') \[/sourcecode\]
+
+```python
+def background\_stuff(): """ python code in main.py """ print 'In background\_stuff' while True: time.sleep(1) t = str(time.clock()) socketio.emit('message', {'data': 'This is data', 'time': t}, namespace='/test')
+```
+
 
 **3**
 
 This is the emit statement from above, but is the meat of our interface with SocketIO. Notice how it breaks down...
 
-\[sourcecode language="python"\] socketio.emit('message', {'data': 'This is data', 'time': t}, namespace='/test') socektio.emit('tag', 'data', namespace) \[/sourcecode\]
+
+```python
+socketio.emit('message', {'data': 'This is data', 'time': t}, namespace='/test') socektio.emit('tag', 'data', namespace)
+```
+
 
 This emit will be sending to the client (Javascript) a message called 'message'.
 
@@ -93,7 +105,11 @@ We can call it wherever we want, but for this simple example we'll put it right 
 
 Here's our route:
 
-\[sourcecode language="python"\] @app.route('/') def index(): global thread if thread is None: thread = Thread(target=background\_stuff) thread.start() return render\_template('index.html') \[/sourcecode\]
+
+```python
+@app.route('/') def index(): global thread if thread is None: thread = Thread(target=background\_stuff) thread.start() return render\_template('index.html')
+```
+
 
 Pretty simple… Notice global thread and target=background\_stuff
 
@@ -101,13 +117,21 @@ Creating different background threads is a good way to iterate through your chan
 
 Next step is catching this on the other side… So for our Javascript… we'll be using the socket.on method.
 
-\[sourcecode language="javascript"\] socket.on('message', function(msg){ $('#test').html('&lt;p&gt;' + msg.time + '&lt;/p&gt;'); }); \[/sourcecode\]
+
+```javascript
+socket.on('message', function(msg){ $('#test').html('<p>' + msg.time + '</p>'); });
+```
+
 
 When we receive the emit labeled 'message' we'll pick up the msg from the second parameter and have it be available to our JQuery work.
 
 Here's the small piece of HTML that we're selecting to edit.
 
-\[sourcecode language="html"\] <body> <p id='test'>Hello</p> </body> \[/sourcecode\]
+
+```html
+<body> <p id='test'>Hello</p> </body>
+```
+
 
 [I've posted all of this code at github](https://github.com/timmyreilly/Demo-Flask-SocketIO).
 

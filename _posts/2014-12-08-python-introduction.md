@@ -9,7 +9,11 @@ Here are notes and resources to help you continue learning!
 
 [Click here if you still need to get setup!](https://openhatch.org/wiki/PyCon_intro_tutorial_prep#Goal_.231:_set_up_Python "Python Setup")
 
-\[sourcecode language="python"\]\[/sourcecode\]
+
+```python
+
+```
+
 
 **From Yesterday:**
 
@@ -21,7 +25,11 @@ This is what we walked through using our REPL (Read, Evaluate, Print, Loop) Any 
 
 or
 
-\[sourcecode language="python"\] if this in this\_list: print this \[/sourcecode\]
+
+```python
+if this in this\_list: print this
+```
+
 
 can be entered into your REPL (when the terminal has the '>>>' next to the cursor)
 
@@ -57,15 +65,27 @@ Python strives to be readable. 'in' keyword:
 
 `"H" in "Hello"  "z" not in "Hello"`
 
-**MAKING CHOICES** Multi Line statements \[sourcecode language="python"\] if "found" in "Newfoundland" print "Yes" \[/sourcecode\] The stuff indented will be executed. Indentation matters the most to your brain 4 spaces is the standard, but a tab will work as well. Consistency is what matters the most.
+**MAKING CHOICES** Multi Line statements 
+```python
+if "found" in "Newfoundland" print "Yes"
+```
+ The stuff indented will be executed. Indentation matters the most to your brain 4 spaces is the standard, but a tab will work as well. Consistency is what matters the most.
 
-**Making choices with if** Condition check What is the current state of something? What condition is met? What state is it in? \[sourcecode language="python"\] Tim = 22 Alfred = 2
+**Making choices with if** Condition check What is the current state of something? What condition is met? What state is it in? 
+```python
+Tim = 22 Alfred = 2
 
-if Tim > Alfred: print "Tim is older" else: print "alfred is older" \[/sourcecode\] _Remember your colons ':'_
+if Tim > Alfred: print "Tim is older" else: print "alfred is older"
+```
+ _Remember your colons ':'_
 
-What if they're the same age? \[sourcecode language="python"\] Tim = 22 Alfred = 22
+What if they're the same age? 
+```python
+Tim = 22 Alfred = 22
 
-if Tim > Alfred: print "tim is older" elif Tim == Alfred: print "Same age!" else: print "Alfred is older" \[/sourcecode\] You can pile on these elif statements to build larger conditional checks. Else is the catch all. If none of our 'if' or 'elif' conditions are met else will be executed. Else is not required.
+if Tim > Alfred: print "tim is older" elif Tim == Alfred: print "Same age!" else: print "Alfred is older"
+```
+ You can pile on these elif statements to build larger conditional checks. Else is the catch all. If none of our 'if' or 'elif' conditions are met else will be executed. Else is not required.
 
 Remember you only get one thing so if multiple conditions are met the first one in the conditional will be executed. You only get one thing!
 
@@ -107,41 +127,79 @@ Lists can be used to read lines out of files, build list from data, and give our
 
 LOOPS! Looping over lists
 
-\[sourcecode language="python"\] for name in names: print name \[/sourcecode\] This is a for loop for variable name in list name name is our variable name. It could be anything. Another Example:
 
-\[sourcecode language="python"\] for x in names: print x \[/sourcecode\]
+```python
+for name in names: print name
+```
+ This is a for loop for variable name in list name name is our variable name. It could be anything. Another Example:
+
+
+```python
+for x in names: print x
+```
+
 
 Very machine like, think manufacturing.
 
-\[sourcecode language="python"\] for name in names: print "Hello" + name \[/sourcecode\] THE POWER! Get ready to geek out about programming.
 
-\[sourcecode language="python"\] name = "Zelda" for x in name: print x \[/sourcecode\] Looping over strings v. lists
+```python
+for name in names: print "Hello" + name
+```
+ THE POWER! Get ready to geek out about programming.
 
-Solidify: \[sourcecode language="python"\] names
 
-for x in names: if x\[0\] in "AEIOU": print x + " starts with a vowel"
+```python
+name = "Zelda" for x in name: print x
+```
+ Looping over strings v. lists
+
+Solidify: 
+```python
+names
+
+for x in names: if x[0] in "AEIOU": print x + " starts with a vowel"
 
 your\_name = "Tim"
 
-if name in names: if name\[0\] in "AEIOU" print name + " start with a vowel" else: print name + " starts with a consonant" \[/sourcecode\]
+if name in names: if name[0] in "AEIOU" print name + " start with a vowel" else: print name + " starts with a consonant"
+```
+
 
 This is the most conceptually difficult thing
 
 Another Example: Build a list
 
-\[sourcecode language="python"\] vowel\_names = \[\] len(vowel\_names)
 
-for name in names: if name \[0\] in "AEIOU" vowel\_names.append(name)
+```python
+vowel\_names = [] len(vowel\_names)
 
-\[/sourcecode\]
+for name in names: if name [0] in "AEIOU" vowel\_names.append(name)
+```
+
 
 What should vowel\_names contain?
 
-\[sourcecode language="python"\] vowel\_names \[/sourcecode\]
 
-**Build a sentence** \[sourcecode language="python"\] sentence = "" for name in names: sentence = sentence + name \[/sourcecode\] Another Example \[sourcecode language="python"\] sentence = "Four score and seven years ago" sentence\_no\_vowels = "" for letter in sentence: if letter not in "AEIOUaeiou": sentence\_no\_vowels = sentence\_no\_vowels + letter sentence\_no\_vowels \[/sourcecode\] REAL WORK IN FILES!
+```python
+vowel\_names
+```
 
-Copy and paste this into a file and save it as python file using the extension: '.py' \[sourcecode language="python"\] sentence = "Four score and seven years ago" sentence\_no\_vowels = "" for letter in sentence: if letter not in "AEIOUaeiou": sentence\_no\_vowels = sentence\_no\_vowels + letter sentence\_no\_vowels \[/sourcecode\] For example I named my file 'same\_thing.py' and saved it to my desktop.
+
+**Build a sentence** 
+```python
+sentence = "" for name in names: sentence = sentence + name
+```
+ Another Example 
+```python
+sentence = "Four score and seven years ago" sentence\_no\_vowels = "" for letter in sentence: if letter not in "AEIOUaeiou": sentence\_no\_vowels = sentence\_no\_vowels + letter sentence\_no\_vowels
+```
+ REAL WORK IN FILES!
+
+Copy and paste this into a file and save it as python file using the extension: '.py' 
+```python
+sentence = "Four score and seven years ago" sentence\_no\_vowels = "" for letter in sentence: if letter not in "AEIOUaeiou": sentence\_no\_vowels = sentence\_no\_vowels + letter sentence\_no\_vowels
+```
+ For example I named my file 'same\_thing.py' and saved it to my desktop.
 
 Then exit out of the REPL by pressing ctrl+c or ctrl+x. Navigate to the directory containing the file. [Use Goal #3 to learn how to navigate your terminal.](https://openhatch.org/wiki/PyCon_intro_tutorial_prep#Goal_.231:_set_up_Python "Look at Goal #3! ") Run the file using the command you used to start the Python REPL. Possibly: `python same_thing.py` or `C:\Python27\python.exe same_thing.py`
 

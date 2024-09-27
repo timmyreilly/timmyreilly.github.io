@@ -108,19 +108,25 @@ To change to our home directory: `$ cd ~` And create our new folder: `$ mkdir Ph
 
 Then create a _static_ and _templates_ folder inside of our app. `$ sudo mkdir templtes $ sudo mkdir static` ![mkPhotoApp]({{ site.baseurl }}/assets/images/mkPhotoApp.png) Then create our app.py which will be our python flask server code. `$ sudo nano app.py` Here's the code:
 
-\[sourcecode language="python"\] from flask import Flask, render\_template app = Flask(\_\_name\_\_)
 
-@app.route(&quot;/&quot;) def index(): return render\_template(&quot;index.html&quot;)
+```python
+from flask import Flask, render\_template app = Flask(\_\_name\_\_)
 
-if \_\_name\_\_ == &quot;\_\_main\_\_&quot;: app.run(host='0.0.0.0', debug=True)
+@app.route("/") def index(): return render\_template("index.html")
 
-\[/sourcecode\]
+if \_\_name\_\_ == "\_\_main\_\_": app.run(host='0.0.0.0', debug=True)
+```
+
 
 And what it looks like in nano: ![nanoapppy]({{ site.baseurl }}/assets/images/nanoapppy.png)
 
 Then we need to add our first template: `$ sudo nano templates/index.html`
 
-\[sourcecode language="html"\] &lt;h1&gt;Wazzup Dog&lt;/h1&gt; &lt;img style=&quot;max-width:100%;&quot; src=&quot;{{ url\_for('static', filename='photo.jpg') }}&quot;&gt; \[/sourcecode\]
+
+```html
+<h1>Wazzup Dog</h1> <img style="max-width:100%;" src="{{ url\_for('static', filename='photo.jpg') }}">
+```
+
 
 And what it looks like in nano: ![indexinnano]({{ site.baseurl }}/assets/images/indexinnano.png)
 

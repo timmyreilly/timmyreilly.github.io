@@ -11,16 +11,7 @@ Installing a bluetooth keyboard on a PC is ridiculously still difficult. I could
 
 Sleep. Everynight we sleep. Every morning we wake up... And every night I have to spend time checking and double checking whether or not my phone has got its alarm set. And at the same time consider what morning is going to be like. How do I know what time to wake up. Will I be warm, will I have slept well. Will it be easy to get out of bed, will I hear my alarm. I hope everythings going to be okay??? I wish I could let my mind at ease about the sleeping process, and have faith that as I lie down everything is ready for me to wake up in the morning comfortably and well rested, but right now that's not possible. I imagine a world where my alarm device would keep track of my sleeping schedule, understand when I sleep/wakeup the best, what pattern succeeds in me coming too peacefully and hopping right out of bed. When to set the alarm based on my habits/appointments. And guide me into the morning without me having to lurch through it. That would be a fine world.
 
-[![A Fine World Indeed ](images/IMG_20131228_1226371-768x1024.jpg)](http://timmyreilly.azurewebsites.net/wp-content/uploads/2014/02/IMG_20131228_1226371.jpg)
-
-
-[![A Fine World Indeed ](images/IMG_20131228_1226371-768x1024.jpg)]
-    
-![A Fine World Indeed ]({{ site.baseurl }}/assets/images/IMG_20131228_1226371-768x1024.jpg)
-
-
-](http://timmyreilly.azurewebsites.net/wp-content/uploads/2014/02/IMG_20131228_1226371.jpg)
-
+[![A Fine World Indeed ]({{ site.baseurl }}/assets/images/IMG_20131228_1226371-768x1024.jpg)](http://timmyreilly.azurewebsites.net/wp-content/uploads/2014/02/IMG_20131228_1226371.jpg)
 
  [](about:blank)
 

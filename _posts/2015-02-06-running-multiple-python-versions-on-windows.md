@@ -24,7 +24,11 @@ I'll show you how I set it up. First we'll edit our Profile, then we'll change t
 
 Open powershell!
 
-\[sourcecode language="•powershell"\]\[/sourcecode\]
+
+```•powershell
+
+```
+
 
 1\. Type the following command and press ENTER:
 
