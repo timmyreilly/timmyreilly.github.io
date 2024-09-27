@@ -187,4 +187,10 @@ Ahhhh good question John. Taking us back to compilers... We'll get to the full r
 
 ```
 
+
+
+Okay, that might have been overkill to write the code, can you just convert this one and just provided it directly? 
+
+
+
 ## 
