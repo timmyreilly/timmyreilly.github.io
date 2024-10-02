@@ -90,5 +90,5 @@ Yay! You've got the key, you've got the VM, now put it to work! [Flask on Ubuntu
 
 Let me know if you have any questions by posting in the comments below!
 
-\[caption id="attachment\_9301" align="aligncenter" width="4032"\]![These people just want High Fives! ]({{ site.baseurl }}/assets/images/reactor-hacker-photo.jpg) These people just want High Fives!\[/caption\]
+![These people just want High Fives! ]({{ site.baseurl }}/assets/images/reactor-hacker-photo.jpg) These people just want High Fives!
 
