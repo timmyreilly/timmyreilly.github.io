@@ -7,7 +7,11 @@ I don't know what to talk about already...
 
 I guess I should introduce myself. I'll probably turn this into the about page soon enough.
 
-One of the more significant things I've done is start this website. And the other is probably build an college level ultimate frisbee team. See photo! \[caption id="attachment\_7" align="alignnone" width="300"\][![Awesome GNAR Ultimate players]({{ site.baseurl }}/assets/images/HOWLTEAMPHOTO12-300x208.jpg)](http://timmyreilly.azurewebsites.net/wp-content/uploads/2013/11/HOWLTEAMPHOTO12.jpg) This was my first tournament as Captain/President, and it was a blast. \[/caption\]
+One of the more significant things I've done is start this website. And the other is probably build an college level ultimate frisbee team. See photo! 
+
+![Awesome GNAR Ultimate players]({{ site.baseurl }}/assets/images/HOWLTEAMPHOTO12-300x208.jpg) 
+
+This was my first tournament as Captain/President, and it was a blast. 
 
 There are few things better than chasing down a frisbee on a sunny day. I suppose that's why I'm here. To keep track of the good days, journal about what I've learned, and share my ideas with anyone who cares. The website presented itself as a good platform to stand on.
 
