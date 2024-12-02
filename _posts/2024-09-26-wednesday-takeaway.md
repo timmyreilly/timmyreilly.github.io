@@ -74,3 +74,10 @@ The truth is pretty wispy anyways. We're always locked to so much context when w
 
 Error corrected Quantum systems... listening to the TED talk by the Quantum guy at Google. His outfit was freaking awesome for a talk about Quantum. All discussions of Quantum should be done with such glasses. 
 
+## 6 November 2024
+
+Some thoughts about sprinting and working with Software Engineering Groups
+
+the variable of participation can be really disorienting. I think I get confused when we kick off a sprint but people are split among different requirements I think for us to work most effectively with a customer regularly pairing with ProductOwners and Developers for engineering sessions can provide maximum value. I think the representation of a sprint could extend to a more deliberate timeframe for co-working. 
+
+There's an efficiency curve that I'm always trying to hit when writing code and sometimes I get discouraged from finding that curve as I don't know if others are alongside me? It's a weird feeling but when you are on the edge of understanding alongside someone it can be really rewarding when together you accomplish insight. 
